@@ -1,4 +1,4 @@
-CC      = clang
+CC      = gcc
 
 TARGET  = fake.so
 SOURCES = libfake/passwd.c libfake/getenv.c ./libfake/envp.c
