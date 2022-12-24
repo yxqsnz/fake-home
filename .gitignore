@@ -1,0 +1,5 @@
+config.h
+*.so
+*.o
+compile_commands.json
+.cache
