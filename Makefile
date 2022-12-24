@@ -1,7 +1,7 @@
 CC      = clang
 
 TARGET  = fake.so
-SOURCES = fake.c libfake/passwd.c
+SOURCES = libfake/passwd.c libfake/getenv.c ./libfake/envp.c
 OBJECTS = $(SOURCES:.c=.o)
 CFLAGS  = -O2 -Wall
 
